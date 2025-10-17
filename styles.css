@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Inter, Arial;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 1px 5px 30px 2px rgba(0, 0, 0, 0.1);
+}
+
+.banner-image-container {
+  overflow: hidden;
+  width: auto;
+  height: 100px;
+  margin: 3px 3px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 400%;
+}
+.avatar-socials-container {
+  border: 1px solid white;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar-container {
+  border: 3px solid white;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  left: -25px;
+  top: -60px;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100%;
+}
+
+nav {
+  border: 1px solid white;
+  display: flex;
+  margin: 0px 6px;
+  align-items: center;
+  width: 110px;
+  justify-content: space-between;
+}
+
+.x-logo {
+  width: 30px;
+}
+
+.linkedin-logo {
+  width: 30px;
+  margin-left: 0;
+}
+
+.github-logo {
+  width: 30px;
+}
+
+header {
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+h2 {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.user-role {
+  display: inline-block;
+  margin: 0;
+  margin-left: 3px;
+  font-size: 14px;
+  color: rgb(78, 78, 78);
+}
+
+.bio {
+  border: 1px solid white;
+  padding: 0px 30px;
+  font-size: 12px;
+  margin: 0;
+}
+
+.time {
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: #fac8b88f;
+  display: flex;
+  justify-content: center;
+  margin: 30px 120px;
+  font-size: 12px;
+  padding: 5px 0px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.hobbies-lists {
+  border: 1px solid white;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: #e5d4c062;
+  border-radius: 10px;
+}
+
+.dislike-lists {
+  border: 1px solid white;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px;
+  padding-top: 10px;
+  background-color: #c5decd3f;
+  border-radius: 10px;
+}
+
+.hobbies {
+  display: inline-block;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.dislikes {
+  margin: 0;
+  padding-left: 25px;
+}
+
+.hobbies-dislikes {
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 12px;
+  margin: 20px 15px;
+}
+
+@media (min-width: 1024px) {
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    margin-top: 0;
+    border-radius: 20px;
+    box-shadow: 1px 5px 30px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  .banner-image-container {
+    overflow: hidden;
+    width: auto;
+    height: 100px;
+    margin: 3px 3px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+
+  .banner-image {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+  }
+
+  .hobbies-dislikes {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 12px;
+    margin: 20px 100px;
+  }
+}
